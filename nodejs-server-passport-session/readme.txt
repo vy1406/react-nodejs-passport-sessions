@@ -14,3 +14,6 @@ click login logout to play with the api calls.
 
 the register, will add to users another user. 
 this is where you want to put in a db.
+
+in server, u got 2 options, using cors() package, means you will have manually to add domains that can access this server.
+other option is manually add headers.
