@@ -1,17 +1,16 @@
-this project is about login logout. using session and passport.js
-you got 5 routes
-login
-logout
-register
-users
-/   ( home )
-part of them for authenticated users, part not.
+open server on 3000, ( npm run start )
+open client ( npm run start ) -> choose port 3001
 
-no db here.
+at client, you will have 2 options, to login and logout.
+then depending on what u did -> you will have an option to make api calls,
+those api calls will be guarded depending on if you are authorazed or not.
 
-uses ejs, means the server returns html to the user.
-after u are done injecting it inside ur application, you can 
-uninstall ejs
+u got 3 routes: 
+- for everybody
+- for not authorized ( not logged in ) 
+- for logged in ( private )
 
-this whole project is taken from here:
-https://www.youtube.com/watch?v=-RCnNyD0L-s&ab_channel=WebDevSimplified
+click login logout to play with the api calls.
+
+the register, will add to users another user. 
+this is where you want to put in a db.
